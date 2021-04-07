@@ -1,0 +1,31 @@
+#cards {
+    padding: 1.875rem 0;
+    background: hsl(218, 28%, 13%);
+}
+
+.container__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    text-align: center;
+    color: #fff;
+    margin: 20px 0;
+    font-family: 'Raleway', sans-serif;
+    padding: 0 5%;
+}
+
+.card__img {
+    margin: .625rem 0;
+}
+
+.card__title {
+    margin: .625rem 0;
+}
+
+.card__p {
+    margin: .625rem auto;
+    max-width: 22rem;
+}
