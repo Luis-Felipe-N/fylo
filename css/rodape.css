@@ -1,0 +1,112 @@
+#rodape {
+    background-color: hsl(216, 53%, 9%);
+    font-family: 'Raleway', sans-serif;
+}
+
+.container__rodape {
+    padding: 0 5%;
+    color: #fff;
+}
+
+.form {
+    display: block;
+    background-color: hsl(217, 28%, 15%);
+    padding: 2rem;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+    max-width: 50rem;
+    margin: auto;
+    text-align: center;
+    border-radius: .5rem;
+    transform: translateY(-50%);
+}
+
+.form h1 {
+    margin-bottom: 2rem;
+}
+
+.form p {
+    margin-bottom: 2rem;
+}
+
+.footer__send  {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.form input {
+    width:  18rem;
+    height: 3rem;
+    border: none;
+    border-radius: 2rem;
+    padding: 0 2rem;
+}
+
+.content__rodape {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 5rem;
+    padding-bottom: 6.25rem;
+    
+}
+
+.rodape__sobre img {
+    transform: translateY(-100%);
+}
+
+.rodape__sobre div{
+    max-width: 15rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 1.25rem;
+
+}
+
+.rodape__contato {
+    width: 12rem;
+}
+
+.number__contato, .email__contato{
+    display: flex;
+    align-items: flex-start;
+    gap: 1.25rem;
+    margin: 1rem;
+
+}
+
+.email__contato {
+
+}
+
+.rodape__contato-img {
+
+}
+
+.rodape__contato-text {
+
+}
+
+.rodape__menu {
+    width: 12rem;
+}
+.rodape__menu ul li {
+
+    margin-bottom: 1rem;
+}
+
+.rodape__menu ul li a {
+    color: #fff;
+}
+
+.rodape__social {
+    font-size: 1.7rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.rodape__social i {
+    padding: .5rem;
+}
