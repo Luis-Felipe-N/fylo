@@ -50,23 +50,15 @@
     flex-wrap: wrap;
     gap: 5rem;
     padding-bottom: 6.25rem;
-    
-}
-
-.rodape__sobre img {
-    transform: translateY(-100%);
+    font-size: 1rem;
 }
 
 .rodape__sobre div{
-    max-width: 15rem;
+    max-width: 20rem;
     display: flex;
     align-items: flex-start;
     gap: 1.25rem;
 
-}
-
-.rodape__contato {
-    width: 12rem;
 }
 
 .number__contato, .email__contato{
@@ -77,20 +69,8 @@
 
 }
 
-.email__contato {
-
-}
-
-.rodape__contato-img {
-
-}
-
-.rodape__contato-text {
-
-}
-
 .rodape__menu {
-    width: 12rem;
+    /* width: 10rem; */
 }
 .rodape__menu ul li {
 
@@ -109,4 +89,15 @@
 
 .rodape__social i {
     padding: .5rem;
+    cursor: pointer;
+    color: #fff;
+    transition: .2s;
+}
+
+.rodape__social i:hover {
+    color: rgba(255, 255, 255, 0.685);
+}
+
+.logo__rodape {
+    margin-bottom: 2rem;
 }
